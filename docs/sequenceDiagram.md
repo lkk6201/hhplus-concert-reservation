@@ -48,7 +48,7 @@ participant ReservationRepository
 ## 3. 좌석 예약 요청 API
 ```mermaid
 sequenceDiagram
-participant User
+actor User
 participant ReservationController
 participant ReservationService
 participant SeatRepository
@@ -99,7 +99,7 @@ title 잔액 조회 API
 ## 5. 결제 API
 ```mermaid
 sequenceDiagram
-    participant User
+    actor User
     participant PaymentController
     participant PaymentService
     participant ReservationService
