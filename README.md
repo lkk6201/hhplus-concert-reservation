@@ -54,3 +54,5 @@
 - 세부 작업
   - 콘서트 결제를 처리하고 결제 내역을 생성하는 API 작성
   - 결제 완료 후 대기열 토큰을 만료시키는 기능 추가
+ ***
+- [시퀀스 다이어그램](https://github.com/lkk6201/hhplus-concert-reservation/blob/feature%2Fstep5/docs/sequenceDiagram.md)
