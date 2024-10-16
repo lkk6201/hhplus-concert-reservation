@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
  */
 @Entity(name = "concert_schedule")
 @Table(name = "concert_schedule")
-public class ConcertScheduleEntity extends BaseTimeEntity {
+public class ScheduleEntity extends BaseTimeEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

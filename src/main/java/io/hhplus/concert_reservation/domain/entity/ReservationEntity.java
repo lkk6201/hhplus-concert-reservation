@@ -9,7 +9,7 @@ import jakarta.persistence.*;
  */
 @Entity(name = "concert_reservation")
 @Table(name = "concert_reservation")
-public class ConcertReservationEntity extends BaseTimeEntity {
+public class ReservationEntity extends BaseTimeEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

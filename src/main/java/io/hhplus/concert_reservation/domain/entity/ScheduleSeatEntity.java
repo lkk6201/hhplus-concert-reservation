@@ -8,7 +8,7 @@ import jakarta.persistence.*;
  */
 @Entity(name = "concert_schedule_seat")
 @Table(name = "concert_schedule_seat")
-public class ConcertScheduleSeatEntity extends BaseTimeEntity {
+public class ScheduleSeatEntity extends BaseTimeEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
