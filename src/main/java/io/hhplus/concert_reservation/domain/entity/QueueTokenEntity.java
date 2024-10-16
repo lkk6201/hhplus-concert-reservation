@@ -1,7 +1,7 @@
 package io.hhplus.concert_reservation.domain.entity;
 
 import io.hhplus.concert_reservation.domain.entity.common.BaseTimeEntity;
-import io.hhplus.concert_reservation.domain.entity.enums.QueueTokenStatus;
+import io.hhplus.concert_reservation.domain.enums.QueueTokenStatus;
 import jakarta.persistence.*;
 
 import java.time.LocalDateTime;
@@ -9,8 +9,9 @@ import java.time.LocalDateTime;
 /**
  * 대기열 토큰 엔티티 클래스
  */
-@Entity
-public class QueueToken extends BaseTimeEntity {
+@Entity(name = "queue_token")
+@Table(name = "queue_token")
+public class QueueTokenEntity extends BaseTimeEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

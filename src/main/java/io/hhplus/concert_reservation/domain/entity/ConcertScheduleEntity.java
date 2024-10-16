@@ -8,8 +8,9 @@ import java.time.LocalDateTime;
 /**
  * 콘서트 스케줄 엔티티 클래스
  */
-@Entity
-public class ConcertSchedule extends BaseTimeEntity {
+@Entity(name = "concert_schedule")
+@Table(name = "concert_schedule")
+public class ConcertScheduleEntity extends BaseTimeEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
